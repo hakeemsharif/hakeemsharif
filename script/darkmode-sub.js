@@ -19,7 +19,7 @@ const enableIcon = () => {
     // 1. Add the class to the body
     
     document.getElementById('mainlogo').src = "../files/hs-logo/LogoLight.webp";
-    document.getElementById('homeicon').src = "../files/icons/home-light.webp";
+    document.getElementById('homeicon').src = "../files/icons/home-light.png";
     // 2. Update darkMode in localStorage
     localStorage.setItem("mainlogo", 'enabled');
   }
@@ -37,7 +37,7 @@ const disableIcon = () => {
     // 1. Add the class to the body
     
     document.getElementById('mainlogo').src = "../files/hs-logo/LogoMain.webp";
-    document.getElementById('homeicon').src = "../files/icons/home-dark.webp";
+    document.getElementById('homeicon').src = "../files/icons/home-dark.png";
     // 2. Update darkMode in localStorage
     localStorage.setItem("mainlogo", 'enabled');
   }
