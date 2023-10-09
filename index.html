@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="script/darkmode.js" async></script>
+        <script>
+            // Do this before the body gets parsed
+            if (localStorage.getItem('dark-theme') === '1') {
+              document.documentElement.classList.add('dark-theme');
+            }
+          </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Hakeem S.</title>
@@ -125,6 +130,6 @@
        
         
         
-        
+        <script src="script/darkmode.js" async></script>
     </body>
 </html>

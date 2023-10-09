@@ -28,6 +28,7 @@ const enableIcon = () => {
 
 const disableDarkMode = () => {
   // 1. Remove the class from the body
+  //document.body.classList.remove('dark-theme');
   document.documentElement.classList.remove('dark-theme');
   document.getElementById('dark-mode-toggle').src = "files/icons/Dark.png";
   // 2. Update darkMode in localStorage 
