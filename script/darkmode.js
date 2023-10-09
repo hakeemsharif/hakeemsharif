@@ -10,7 +10,7 @@ let homeicon = localStorage.getItem('homeicon');
 const enableDarkMode = () => {
   // 1. Add the class to the body
   document.body.classList.add('dark-theme');
-  document.getElementById('dark-mode-toggle').src = "files/icons/Light.webp";
+  document.getElementById('dark-mode-toggle').src = "files/icons/Light.png";
   // 2. Update darkMode in localStorage
   localStorage.setItem('dark-theme', 'enabled');
 }
@@ -28,7 +28,7 @@ const enableIcon = () => {
 const disableDarkMode = () => {
   // 1. Remove the class from the body
   document.body.classList.remove('dark-theme');
-  document.getElementById('dark-mode-toggle').src = "files/icons/Dark.webp";
+  document.getElementById('dark-mode-toggle').src = "files/icons/Dark.png";
   // 2. Update darkMode in localStorage 
   localStorage.setItem('dark-theme', null);
 }
