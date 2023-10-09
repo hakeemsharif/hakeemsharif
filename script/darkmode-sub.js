@@ -24,7 +24,6 @@ const enableIcon = () => {
     localStorage.setItem("mainlogo", 'enabled');
   }
 
-
 const disableDarkMode = () => {
   // 1. Remove the class from the body
   document.body.classList.remove('dark-theme');
@@ -32,7 +31,6 @@ const disableDarkMode = () => {
   // 2. Update darkMode in localStorage 
   localStorage.setItem('dark-theme', null);
 }
-
 const disableIcon = () => {
     // 1. Add the class to the body
     
@@ -42,6 +40,7 @@ const disableIcon = () => {
     localStorage.setItem("mainlogo", 'enabled');
   }
  
+  
 // If the user already visited and enabled darkMode
 // start things off with it on
 if (darkMode === 'enabled') {

@@ -1,4 +1,4 @@
-// check for saved 'darkMode' in localStorage
+
 let darkMode = localStorage.getItem('dark-theme'); 
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
@@ -44,11 +44,11 @@ const disableIcon = () => {
  
 // If the user already visited and enabled darkMode
 // start things off with it on
+
 if (darkMode === 'enabled') {
   enableDarkMode();
   enableIcon();
 }
-
 
 
 // When someone clicks the button
