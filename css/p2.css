@@ -103,9 +103,5 @@ body {
 @media (max-width: 799px) {
   .section {
     grid-template-columns: 1fr; } }
-@media (max-width: 1140px) {
-  #container {
-    margin-left: 10px;
-    margin-right: 10px; } }
 
 /*# sourceMappingURL=p2.css.map */

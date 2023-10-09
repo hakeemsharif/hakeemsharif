@@ -9,7 +9,7 @@
     }
 
     img{
-        max-width: 175px;
+        max-width: 160px;
     }
     
     h1{
@@ -17,6 +17,7 @@
         margin: 0;
         font-size: 25px;
         color: var(--text-color);
+        white-space: nowrap;
     }
 
     .icon{   

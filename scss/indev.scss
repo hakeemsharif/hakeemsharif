@@ -1,15 +1,9 @@
 body{
-    //background-color: #F3F3F3;
-    
     background-color: var(--background-color);
-    //color: var(--text-color);
     display: flex;
     justify-content: center;
     transition: .1s;
-
-
 }
-
 
 #container{
    width: 1200px;

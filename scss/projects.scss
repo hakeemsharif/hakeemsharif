@@ -2,7 +2,7 @@ body{
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
+    
 }
 
 #container{
@@ -111,10 +111,17 @@ body{
 
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 960px) {
         
     #container{
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .project-content{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
 }
