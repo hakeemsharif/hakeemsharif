@@ -5,9 +5,10 @@
   margin-top: 40px; }
   .nav .Logo {
     text-align: center; }
-  .nav img {
-    max-width: 160px; }
+    .nav .Logo img {
+      width: 160px; }
   .nav h1 {
+    width: auto;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     font-size: 25px;
@@ -16,10 +17,10 @@
   .nav .icon {
     margin: 30px; }
     .nav .icon #homeicon {
-      max-width: 35px;
+      width: 35px;
       cursor: pointer; }
     .nav .icon #dark-mode-toggle {
-      max-width: 35px;
+      width: 35px;
       cursor: pointer; }
 
 /*# sourceMappingURL=nav.css.map */
