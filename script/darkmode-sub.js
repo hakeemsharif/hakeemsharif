@@ -10,7 +10,7 @@ let homeicon = localStorage.getItem('homeicon');
 const enableDarkMode = () => {
   // 1. Add the class to the body
   document.body.classList.add('dark-theme');
-  document.getElementById('dark-mode-toggle').src = "../files/icons/Light.png";
+  document.getElementById('dark-mode-toggle').src = "../files/icons/Light.webp";
   // 2. Update darkMode in localStorage
   localStorage.setItem('dark-theme', 'enabled');
 }
@@ -19,7 +19,7 @@ const enableIcon = () => {
     // 1. Add the class to the body
     
     document.getElementById('mainlogo').src = "../files/hs-logo/LogoLight.webp";
-    document.getElementById('homeicon').src = "../files/icons/home-light.png";
+    document.getElementById('homeicon').src = "../files/icons/home-light.webp";
     // 2. Update darkMode in localStorage
     localStorage.setItem("mainlogo", 'enabled');
   }
@@ -27,7 +27,7 @@ const enableIcon = () => {
 const disableDarkMode = () => {
   // 1. Remove the class from the body
   document.body.classList.remove('dark-theme');
-  document.getElementById('dark-mode-toggle').src = "../files/icons/Dark.png";
+  document.getElementById('dark-mode-toggle').src = "../files/icons/Dark.webp";
   // 2. Update darkMode in localStorage 
   localStorage.setItem('dark-theme', null);
 }
@@ -35,7 +35,7 @@ const disableIcon = () => {
     // 1. Add the class to the body
     
     document.getElementById('mainlogo').src = "../files/hs-logo/LogoMain.webp";
-    document.getElementById('homeicon').src = "../files/icons/home-dark.png";
+    document.getElementById('homeicon').src = "../files/icons/home-dark.webp";
     // 2. Update darkMode in localStorage
     localStorage.setItem("mainlogo", 'enabled');
   }
